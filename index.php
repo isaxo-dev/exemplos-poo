@@ -40,6 +40,7 @@ $clienteB->email = "jon@gmail.com";
 
     <section>
         <h4>Dados do cliente B</h4>
+        <p>Nome, idade e email cadastrados pelo <b>Cliente B</b>.</p>
 
         <ul>
             <li>Nome: <?= $clienteB->nome ?> </li>

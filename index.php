@@ -1,19 +1,6 @@
 <?php
-// Importando a classe Cliente
 require_once "src/Cliente.php";
 
-// Criando objetos (ou instâncias) à partir da Classe
-$clienteA = new Cliente();
-$clienteB = new Cliente();
-
-// Atribuindo valores ao objeto $clienteA
-$clienteA->nome = "Mônica";
-$clienteA->idade = 25;
-$clienteA->email = "monica@gmail.com";
-
-$clienteB->nome = "Jon";
-$clienteB->idade = 15;
-$clienteB->email = "jon@gmail.com";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -26,17 +13,11 @@ $clienteB->email = "jon@gmail.com";
     <h1>Exemplos de PHP com POO</h1>
     <hr>
     <h2>Trabalhando com classes e objetos</h2>
-    
-    <h3> Acessando/lendo os dados dos objetos </h3>
-    
-    <?=$clienteA->mostrarDados()?>
-
-    <?=$clienteB->mostrarDados()?>
 
    
 
     <hr>
     <h3>Visualizando a estrutura dos objetos</h3>
-    <pre><?=var_dump($clienteA, $clienteB)?></pre>
+    
 </body>
 </html>

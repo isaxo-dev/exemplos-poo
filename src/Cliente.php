@@ -8,9 +8,9 @@ class Cliente {
     /* Método responsável por exibir os dados de um objeto */
     public function mostrarDados(){
         echo "  <div>
-                    <h4> NOME DO CLIENTE </h4>
-                    <p><b>E-mail de contato:</b> EMAIL DO CLIENTE </p>
-                    <p><b>Idade: </b> IDADE DO CLIENTE anos</p>
+                    <h4> $this->nome </h4>
+                    <p><b>E-mail de contato:</b> $this->email </p>
+                    <p><b>Idade: </b> $this->idade anos</p>
                 </div>";
     }
 }

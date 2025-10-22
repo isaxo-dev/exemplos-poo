@@ -3,8 +3,10 @@ require_once "src/Cliente.php";
 
 // Criando um objeto e usando o método construtor para passar os dados
 $clienteA = new Cliente("Isaac", 16, "isaac@gmail.com");
+$clienteB = new Cliente("José", 15, "jose@gmail.com");
 
-$clienteB = new Cliente("José", 15, "jose@gmail.com")
+// Neste objeto, passamos inclusive o telefone (que nos anteriores, foi opcional)
+$clienteC = new Cliente("Joãozinho", 40, "joaozinho@gmail.com", "11-2135-0300");
 
 ?>
 <!DOCTYPE html>
@@ -23,7 +25,7 @@ $clienteB = new Cliente("José", 15, "jose@gmail.com")
 
     <hr>
     <h3>Visualizando a estrutura dos objetos</h3>
-    <pre><?=var_dump($clienteA, $clienteB)?></pre>
+    <pre><?=var_dump($clienteA, $clienteB, $clienteC)?></pre>
 
 </body>
 </html>

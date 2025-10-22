@@ -1,21 +1,10 @@
 <?php
 require_once "src/livro.php";
 
-$livroA = new Livro();
-$livroB = new Livro();
-$livroC = new Livro();
+$livroA = new Livro("Harry Potter e a Pedra Filosofal", "J.K. Rowling", 264);
+$livroB = new Livro( "O Senhor dos Anéis: A Sociedade do Anel", "J.R.R Tolkien", 576);
+$livroC = new Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 96);
 
-$livroA->titulo = "Harry Potter e a Pedra Filosofal";
-$livroA->autor = "J.K. Rowling";
-$livroA->paginas = 264;
-
-$livroB->titulo = "O Senhor dos Anéis: A Sociedade do Anel";
-$livroB->autor = "J.R.R Tolkien";
-$livroB->paginas = 576;
-
-$livroC->titulo = "O Pequeno Príncipe";
-$livroC->autor = "Antoine de Saint-Exupéry";
-$livroC->paginas = 96;
 
 ?>
 

@@ -1,6 +1,11 @@
 <?php
 require_once "src/Cliente.php";
 
+// Criando um objeto e usando o método construtor para passar os dados
+$clienteA = new Cliente("Isaac", 16, "isaac@gmail.com");
+
+$clienteB = new Cliente("José", 15, "jose@gmail.com")
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -18,6 +23,7 @@ require_once "src/Cliente.php";
 
     <hr>
     <h3>Visualizando a estrutura dos objetos</h3>
-    
+    <pre><?=var_dump($clienteA, $clienteB)?></pre>
+
 </body>
 </html>
